@@ -14,7 +14,7 @@ export const FilterButton = () => {
         <select
         value={currentFilter}
         onChange={(e)=>(handleFilter(e.target.value))}
-         className='text-sm px-2 py-1 rounded border border-gray-300 focus:outline-none'>
+         className='text-sm px-2 py-1 rounded border border-gray-300 focus:outline-none '>
             <option value="ALL">Default</option>
             <option value="COMPLETED">Completed</option>
             <option value="INCOMPLETE">Incomplete</option>
